@@ -13,12 +13,12 @@ class Rectangle():
 
     # YOUR CODE HERE
     def __str__(self):
-        return f"A rectangle with width {self.width} and height{self.height})"
+        return f"A rectangle with width {self.width} and height{self.height}"
 
     # Create the "area_calculator" method
-
     # YOUR CODE HERE
-
+    def area_calculator(self):
+        return self.width * self.height
 
 
     # Create the "__eq__" method
